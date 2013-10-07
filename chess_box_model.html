@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset = "UTF-8">
+<head>
+  <title>The Chess Blog</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="chess_box_model.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#answer").slideToggle();
+    });
+  });
+</script>
+</script>
+</head>
+
+<header>
+<nav>
+  <a href="#" target = "_blank" id = "name">by Jack Mallers</a>
+  <a href="#" target = "_blank">About</a>
+  <a href="#" target = "_blank">Play</a>
+</nav>
+  <h1>The Chess Blog &#9812; &#9813; &#9814; &#9815; &#9816; &#9817;
+   </h1>
+
+  <div class = "clearfix" ></div>
+</header>
+<body background="chess.jpg">
+  <aside>
+    <h3>Bobby Fischer most memorable games:</h3>
+      <ol id = "best_games">
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1008361" target = "_blank">"Game of The Century" Bobby was 14!</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1008419" target = "_blank">"The Brillinacy Prize"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1044366" target = "_blank">"Best by Protest" (World Championship Game)</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1044267" target = "_blank">"A Night In Tunisia"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1043992" target = "_blank">"A Fine Line"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1008404" target = "_blank">"Playing Against Einstein's Theory"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1128889" target = "_blank">"Fischer King" (World Championship Game)</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1008421" target = "_blank">"Rook, Line and Sinker"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1008397" target = "_blank">"A Queen for the King"</a></li>
+        <li><a href="http://www.chessgames.com/perl/chessgame?gid=1044324" target = "_blank">"The Pann-handler"</a></li>
+      </ol>
+
+      <iframe width="420" height="315" src="http://www.youtube.com/embed/lwLM9bgE3tY"></iframe>
+
+
+
+  </aside>
+  <article>
+    <h2>Best Player Ever? Fischer, Kasparov, or Carlsen?</h2>
+
+    <p>
+      It is definitely a hard question, and there is definitely no right answer. Just kidding there is a right answer! Robert James Fischer is the best chess player of all time. There is no doubt in my mind. Does he have the all time rating record? No. Does he have the most world titles? No. So then why is he the best of all time? Let me explain.
+    </p>
+      <hr />
+    <p>
+      <a href="http://magnuscarlsen.com/" target = "_blank">Magnus Carlsen</a> has the all time rating record and could very easily become the best player to ever live, but no way could we hand over such a crown so early. <a href="http://www.kasparov.com/" target = "_blank">Garry Kasparov</a> finished with a higher rating record then Fischer, and more titles, but how much is that worth. Bobby had more <em>talent</em>. This was a boy who dropped out of school and rose to the top of the chess game. No education, no family structure, no money. Bobby would go into a chess club and sweep up every book, magazine, observe every game, and just store all the knowledge in his head. He was like a chess sponge. "Bobby had the equivalent of 100 PHD's in chess" said Asa Hoffman. Bobby never set any amazing rating and championship records because he never played enough. He does hold the all time win % at 72.2%. Bobby stopped playing in his prime. The stats we look up to now are around 50% of what could have heppened. That's why I believe Fischer is better than Kasparov. In Bobby's prime he did un-heard of things. He lost 2 games in the qualifiers leading up to the title! He went 6-0, 6-0, and 6-2 against some of the top players in the world. He then got to the world title and forfeited a few games, putting himself in a huge hole, and then just came back and destroyed Spassky. With the resources of his time he was like no other. His game was on another planet. Bobby also was the best ever because he revolutionized the game. He took chess while it wasn't popular and made it a sensation. He was more than a player, he was an influence, he changed the game forever.
+    </p>
+
+      <hr />
+  </article>
+
+  <aside>
+      <h2 id = "inspirational_quotes">Inspirational Quote</h2>
+      <h3>How do you see yourself?</h3>
+      <img id = "think_big"src="think_big_chess.jpg">
+      <em><p id = "inspiration">"The only person you are destined <br> to become is the person you decide to be." <br>-Ralph Waldo Emerson</p></em>
+      <p>Wake up everyday and work to be the best</p>
+  </aside>
+
+  <article id = "puzzle">
+    <p>
+      <h2>Chess Problem of The Day: White to Move</h2>
+
+      <img src="mate_in_three.jpg">
+
+      <button>ANSWER</button>
+      <ol id = "answer">
+        <li>1. Nxf6! Allowing queen d5 the next move.</li>
+      </ol>
+    </p>
+
+    <div class = "clearfix" ></div>
+
+  </article>
+</body>
+</html>
